@@ -7,7 +7,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 ### Building and Running
 ```bash
 # Restore NuGet packages
-dotnet restore
+dotnet restore       
 
 # Build the project
 dotnet build
@@ -46,7 +46,7 @@ curl -X POST http://localhost:5215/api/test/test-user
 ## Architecture Overview
 
 ### Core Framework
-- **ASP.NET Core MVC** (.NET 9.0) with Razor Views
+- **ASP.NET Core MVC** (.NET 8.0) with Razor Views
 - **Entity Framework Core** with SQLite database
 - **Cookie-based authentication** with BCrypt password hashing
 - **Bootstrap 5** for responsive UI
